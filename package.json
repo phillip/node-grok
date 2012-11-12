@@ -1,0 +1,26 @@
+{
+  "name": "node-grok",
+  "version": "0.1.0",
+  "description": "Node.js implimentation of ruby-grok.",
+  "main": "lib/grok.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/phillip/node-grok.git"
+  },
+  "author": "Phillip Goldenburg",
+  "licenses": [
+    {
+      "type": "Apache2",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "readmeFilename": "Readme.markdown",
+  "dependencies": {
+    "ffi": "~1.2.0",
+    "ref-struct": "0.0.4",
+    "ref": "~0.1.3"
+  }
+}
